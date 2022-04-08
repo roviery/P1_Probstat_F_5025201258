@@ -26,11 +26,11 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
        y = "Peluang") 
 
 #Nomor 1e
-#Nilai variansi
+#Nilai rataan dan varian
 rataan = 1/0.2
 rataan
-variansi = (1-0.2)/(0.2*0.2)
-variansi
+varian = (1-0.2)/(0.2*0.2)
+varian
 
 
 
