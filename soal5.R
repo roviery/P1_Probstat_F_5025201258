@@ -2,6 +2,7 @@
 dexp(3)
 
 #Nomor 5b
+par(mfrow = c(2,2))
 set.seed(1)
 hist(rexp(10))
 set.seed(1)

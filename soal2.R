@@ -11,6 +11,6 @@ p = 0.2
 q = 1-p
 n = 4
 rataan = n*p
-rataan
+cat ("rataan = ", rataan, "\n")
 varian = n*p*q
-varian
+cat ("varian = ", varian, "\n")

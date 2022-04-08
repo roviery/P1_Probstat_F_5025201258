@@ -28,9 +28,9 @@ data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = 0.2)) %>%
 #Nomor 1e
 #Nilai rataan dan varian
 rataan = 1/0.2
-rataan
+cat("rataan = ", rataan, "\n")
 varian = (1-0.2)/(0.2*0.2)
-varian
+cat("varian = ", varian, "\n")
 
 
 
