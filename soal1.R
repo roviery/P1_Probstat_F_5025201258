@@ -10,7 +10,7 @@ mean(rgeom(n=10000, prob=0.2) == 3)
 # Nomor 1d
 library(dplyr)
 library(ggplot2)
-data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = p)) %>%
+data.frame(x = 0:10, prob = dgeom(x = 0:10, prob = 0.2)) %>%
   mutate(Failures = ifelse(x == 3, 3, "other")) %>%
   ggplot(aes(x = factor(x), y = prob, fill = Failures)) +
   geom_col() +
